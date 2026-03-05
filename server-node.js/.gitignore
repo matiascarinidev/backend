@@ -1,0 +1,189 @@
+# Dependencias - PESADOS (MÁS IMPORTANTE)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+lerna-debug.log*
+
+# Archivos de entorno - SENSIBLES
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+!.env.example
+!.env.test
+
+# Archivos de configuración sensibles
+config/
+!config/default.js
+!config/example.js
+secrets.*
+*.pem
+*.key
+*.crt
+*.cert
+**/serviceAccountKey.json
+**/firebase-admin.json
+
+# Directorios de build/output - PESADOS
+dist/
+build/
+out/
+coverage/
+.nyc_output/
+.next/
+.temp/
+.cache/
+
+# Logs - PUEDEN CRECER MUCHO
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Directorios de datos - PESADOS
+data/
+uploads/
+temp/
+tmp/
+*.sqlite
+*.sqlite3
+*.db
+*.db3
+*.mdb
+*.mongodb
+*.rdb
+/dump.rdb
+
+# Docker - PESADOS (si los usas)
+*.tar
+*.tgz
+*.gz
+.dockerignore
+docker-compose.override.yml
+Dockerfile.*.local
+
+# IDE y editores
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Tests y reportes
+test-results/
+junit.xml
+coverage/
+.nyc_output/
+reports/
+allure-results/
+allure-report/
+
+# Archivos de sistema
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.lnk
+
+# Archivos grandes específicos del backend
+*.zip
+*.rar
+*.7z
+*.tar.gz
+*.log.*
+*.pid
+*.seed
+*.pid.lock
+*.node-inspector
+
+# Directorios específicos de frameworks/libs
+# Express/Node
+/pid
+/logs
+/*.db
+/*.sqlite
+
+# PM2
+pm2-*.log
+.pm2/
+.pm2-process.json
+
+# Redis
+dump.rdb
+
+# MongoDB
+mongod.log
+/data/db/
+
+# PostgreSQL
+pg_log/
+postgresql.conf
+pg_hba.conf
+
+# AWS
+.aws/
+aws-config.json
+*.pem
+*.crt
+*.key
+
+# SSH Keys
+*.pem
+*.ppk
+*.key
+*.pub
+id_rsa
+id_dsa
+id_ecdsa
+id_ed25519
+
+# SSL Certificates
+*.crt
+*.csr
+*.key
+*.p12
+*.pfx
+*.jks
+
+# Backups
+*.bak
+*.backup
+*.old
+backups/
+backup-*/
+
+# Heap dumps - MUY PESADOS
+*.heapsnapshot
+*.heapprofile
+*.cpuprofile
+
+# Package manager specific
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+!package-lock.json  # Si quieres mantener el lock file
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Directorios específicos de tu proyecto (ajusta según necesites)
+# /public/files/
+# /private/
+# /certificates/
+# /keys/
