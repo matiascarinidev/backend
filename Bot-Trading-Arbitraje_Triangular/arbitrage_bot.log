@@ -1,0 +1,8 @@
+2025-04-02 01:07:57,278 - INFO - Inicializando bot de arbitraje triangular
+2025-04-02 01:07:58,050 - INFO - Conexion con Binance establecida correctamente
+2025-04-02 01:07:58,555 - INFO - Triángulos encontrados: 2
+2025-04-02 01:07:58,555 - INFO - 1. BTC/USDT , ETH/USDT , ETH/BTC
+2025-04-02 01:07:58,555 - INFO - 2. BTC/USDT , DOGE/USDT , DOGE/BTC
+2025-04-02 01:07:58,568 - INFO - Balance inicial: {'USDT': 5000, 'USDC': 5000, 'BTC': 0.05, 'ETH': 0.5, 'BNB': 5, 'SOL': 10}
+2025-04-02 01:07:58,568 - INFO - Modo: PAPER TRADING
+2025-04-02 01:16:00,847 - INFO - Bot detenido por el usuario
